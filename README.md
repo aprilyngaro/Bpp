@@ -116,8 +116,8 @@
         </ul>
     </section>
  <footer>
-        <p>Contact me at: <a href="mailto:johnbrianmontales010@gmail.com">johnbrianmontales010@gmail.com</a></p>
-        <p>Phone: 09635344946</p>
+        <p>Contact me at: <a href="mailto:aprilyngaro9@gmail.com">aprilyngaro9@gmail.com</a></p>
+        <p>Phone: 09675221155</p>
     </footer>
 
 </body>
