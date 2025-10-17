@@ -1,124 +1,121 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bread and pastry product</title>
+    <title>Bread and Pastry Product</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #faebd7; /* Light Beige */
-            color: #553908; /* Dark Brown */
-            line-height: 1.6;
+            background: #f9f6ef;
+            color: #4a3c1a;
         }
-  header {
-            background-color: #d2b48c; /* Tan */
-            color: #fff;
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            justify-content: center;
+        }
+        .logo-circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #e1c699;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.2rem;
+            font-weight: 900;
+            color: #6b4226;
+            margin-right: 15px;
+            border: 3px solid #bfa06a;
+        }
+        header {
             text-align: center;
-            padding: 2em 0;
-            background-image: url('🥞'); /* Replace emoji */
-            background-size: cover;
-            background-blend-mode: multiply; /* Darken image */
+            margin-bottom: 10px;
         }
- header h1 {
-            font-size: 3em;
-            margin-bottom: 0.2em;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
- section {
-            padding: 30px;
-            margin: 20px;
-            background-color: #fff8dc; /* Lemon Chiffon */
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
- section h2 {
-            color: #8b4513; /* Chocolate Brown */
-            border-bottom: 2px solid #d2b48c;
-            padding-bottom: 0.5em;
-            margin-bottom: 1em;
-        }
-  ul {
-            list-style-type: none;
-            padding: 0;
-        }
-  li {
-          margin-bottom: 15px;
-            padding: 15px;
-            border-radius: 8px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-        }
-  li strong {
-            font-size: 1.2em;
-            color: #a0522d; /* Sienna */
-        }
-   li p {
-            margin-top: 0.5em;
-            color: #775533;
-        }
-   footer {
+        .description {
             text-align: center;
-            padding: 1.5em 0;
-            background-color: #d2b48c; /* Tan */
-            color: #fff;
-            position: relative;
-            width: 100%;
-            box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
+            font-size: 1.13rem;
+            margin-bottom: 30px;
+            color: #6b4226;
         }
-  footer a {
-            color: #fff;
-            text-decoration: none;
+        .products {
+            max-width: 650px;
+            margin: 0 auto 30px auto;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(120,90,40,0.08);
+            padding: 30px 30px 20px 30px;
         }
-  footer a:hover {
-            text-decoration: underline;
+        .product {
+            margin-bottom: 28px;
+        }
+        .product-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .product-desc {
+            margin: 6px 0 0 0;
+            color: #7b5f3a;
+        }
+        .contact {
+            text-align: center;
+            font-size: 1.03rem;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            color: #a17a3a;
+            padding-bottom: 14px;
+            font-size: 0.97rem;
+            letter-spacing: 0.05em;
+        }
+        @media (max-width: 700px) {
+            .products { padding: 18px; }
         }
     </style>
 </head>
 <body>
- <header>
-        <h1>My Baking Site</h1>
+    <div class="logo">
+        <div class="logo-circle">🥐</div>
+        <span style="font-size:1.7rem;font-weight:700;color:#9c6c29;">Bread &amp; Pastry Product</span>
+    </div>
+    <header>
+        <h1>Bread and Pastry Product</h1>
     </header>
- <section id="about">
-        <h2>About</h2>
-        <p>Let's explore baked pastries!</p>
-        <p>Welcome to my little corner of the internet dedicated to all things baked. Here you'll find a delightful assortment of treats, made with love and the finest ingredients. From classic comforts to modern delights, there's something here to satisfy every sweet craving.</p>
+    <div class="description">
+     let's explore here.the delightful world of homemade breads and pastries. Our collection is baked fresh with passion and premium ingredients.
+    </div>
+    <section class="products">
+        <div class="product">
+            <span class="product-title">Cinnamon Roll</span>
+            <div class="product-desc">Soft, fluffy rolls swirled with cinnamon sugar and topped with a creamy glaze. A timeless treat for breakfast or dessert.</div>
+        </div>
+        <div class="product">
+            <span class="product-title">Brownies</span>
+            <div class="product-desc">Rich, fudgy chocolate squares with a crackly top and gooey center. Perfect for chocolate lovers.</div>
+        </div>
+        <div class="product">
+            <span class="product-title">Dinner Roll</span>
+            <div class="product-desc">Light and buttery rolls, freshly baked to complement any meal. Ideal for sharing around the table.</div>
+        </div>
+        <div class="product">
+            <span class="product-title">Bento Cake</span>
+            <div class="product-desc">Mini cakes decorated in adorable bento box style. Perfect for gifts, celebrations, or as a sweet snack.</div>
+        </div>
+        <div class="product">
+            <span class="product-title">Swiss Roll</span>
+            <div class="product-desc">Delicate sponge cake rolled with creamy filling, offering a perfect balance of taste and texture in every slice.</div>
+        </div>
     </section>
-<section id="products">
-        <h2>Products</h2>
-        <ul>
-            <li>
-                <strong>Cinnamon Roll</strong>
-                <p>Warm, soft dough swirled with cinnamon and sugar, topped with a sweet cream cheese glaze.</p>
-            </li>
-            <li>
-                <strong>Dinner Roll</strong>
-                <p>Soft and fluffy, perfect for complementing any meal or enjoying as a light snack.</p>
-            </li>
-            <li>
-                <strong>Brownies</strong>
-                <p>Rich, fudgy squares of chocolatey goodness, with a perfectly crackled top.</p>
-            </li>
-            <li>
-                <strong>Bento Cake</strong>
-                <p>A small, adorable cake perfect for a personal treat or a thoughtful gift. Decorated with care and precision.</p>
-            </li>
-            <li>
-                <strong>Petit Fours</strong>
-                <p>Delicate, bite-sized cakes, beautifully decorated and perfect for any special occasion.</p>
-            </li>
-            <li>
-                <strong>Swiss Roll</strong>
-                <p>Light and airy sponge cake filled with cream and jam, rolled to perfection and dusted with powdered sugar.</p>
-            </li>
-        </ul>
-    </section>
- <footer>
-        <p>Contact me at: <a href="mailto:aprilyngaro9@gmail.com">aprilyngaro9@gmail.com</a></p>
-        <p>Phone: 09675221155</p>
+    <div class="contact">
+        <strong>Contact:</strong> <a href="mailto:aprilyngaro9@gmail.com">aprilyngaro9@gmail.com</a>
+    </div>
+    <footer>
+        &copy; 2025 Designed for Bread and Pastry Product
     </footer>
-
 </body>
 </html>
