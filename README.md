@@ -80,7 +80,7 @@
 </head>
 <body>
     <div class="logo">
-        <div class="logo-circle">'🎂'</div>
+        <div class="logo-circle">https://github.com/aprilyngaro/Bpp/blob/feaf7fe07301d4a87f4bd927172cb97c5d7fa8a9/eaa6b392-7935-40ee-96d4-2a02836d9625.jpeg</div>
         <span style="font-size:1.7rem;font-weight:700;color:#9c6c29;">Bread &amp; Pastry Product</span>
     </div>
     <header>
