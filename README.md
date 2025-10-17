@@ -1,129 +1,123 @@
-# Bpp
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bread and Pastry Products</title>
+    <title>My Baking Site</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ffe4e1; /* Light Pink */
-            color: #333;
+            background-color: #faebd7; /* Light Beige */
+            color: #553908; /* Dark Brown */
             line-height: 1.6;
         }
-        header {
-            background-color: #ffb6c1; /* Light Pink Accent */
+  header {
+            background-color: #d2b48c; /* Tan */
             color: #fff;
-            padding: 1em 0;
             text-align: center;
+            padding: 2em 0;
+            background-image: url('https://images.unsplash.com/photo-1556911220-37318944b195?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your header image URL */
+            background-size: cover;
+            background-blend-mode: multiply; /* Darken image */
         }
-        nav {
-            background-color: #f8bbd0; /* Slightly darker pink for contrast */
-            color: #fff;
-            padding: 0.5em 0;
-            text-align: center;
+ header h1 {
+            font-size: 3em;
+            margin-bottom: 0.2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 0 1em;
-        }
-        .container {
-            padding: 20px;
+ section {
+            padding: 30px;
             margin: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff8dc; /* Lemon Chiffon */
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .product-list {
+ section h2 {
+            color: #8b4513; /* Chocolate Brown */
+            border-bottom: 2px solid #d2b48c;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+  ul {
             list-style-type: none;
             padding: 0;
         }
-        .product-item {
-            padding: 0.5em 0;
-            border-bottom: 1px solid #eee;
+  li {
+          margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
         }
-        .product-item:last-child {
-            border-bottom: none;
+  li strong {
+            font-size: 1.2em;
+            color: #a0522d; /* Sienna */
         }
-        .product-description {
-            font-style: italic;
-            color: #777;
-            margin-left: 20px; /*Indent the description */
+   li p {
+            margin-top: 0.5em;
+            color: #775533;
         }
-        footer {
-            background-color: #ffb6c1; /* Light Pink Accent */
-            color: #fff;
+   footer {
             text-align: center;
-            padding: 1em 0;
+            padding: 1.5em 0;
+            background-color: #d2b48c; /* Tan */
+            color: #fff;
+            position: relative;
             width: 100%;
-            position: relative; /* Changed to relative */
-            bottom: 0;
+            box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
         }
-        .email {
-            margin-top: 20px;
-            font-size: 1em;
-        }
-        .email a {
+  footer a {
             color: #fff;
             text-decoration: none;
+        }
+  footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-
  <header>
-   <h1>Bread and Pastry Products</h1>
+        <h1>My Baking Site</h1>
     </header>
-
-  <nav>
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#products">Products</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-   <div class="container" id="about">
- <h2>About</h2>
-   <h3>Let's explore!</h3>
-     <p>This products is a delightful range of freshly baked bread and pastry products. Made with love and the finest ingredients.</p>
-    </div>
-    <div class="container" id="products">
-        <h2>Our Products</h2>
-        <ul class="product-list">
-            <li class="product-item">
+ <section id="about">
+        <h2>About</h2>
+        <p>Let's explore baked pastries!</p>
+        <p>Welcome to my little corner of the internet dedicated to all things baked. Here you'll find a delightful assortment of treats, made with love and the finest ingredients. From classic comforts to modern delights, there's something here to satisfy every sweet craving.</p>
+    </section>
+<section id="products">
+        <h2>Products</h2>
+        <ul>
+            <li>
                 <strong>Cinnamon Roll</strong>
-                <p class="product-description">A sweet roll made with cinnamon and sugar, often glazed with icing.</p>
+                <p>Warm, soft dough swirled with cinnamon and sugar, topped with a sweet cream cheese glaze.</p>
             </li>
-            <li class="product-item">
+            <li>
                 <strong>Dinner Roll</strong>
-                <p class="product-description">A soft, savory roll perfect for accompanying meals.</p>
+                <p>Soft and fluffy, perfect for complementing any meal or enjoying as a light snack.</p>
             </li>
-            <li class="product-item">
+            <li>
                 <strong>Brownies</strong>
-                <p class="product-description">A rich, chocolatey baked square, often fudgy or cakey.</p>
+                <p>Rich, fudgy squares of chocolatey goodness, with a perfectly crackled top.</p>
             </li>
-            <li class="product-item">
+            <li>
                 <strong>Bento Cake</strong>
-                <p class="product-description">A small, decorative cake perfect for individual servings.</p>
+                <p>A small, adorable cake perfect for a personal treat or a thoughtful gift. Decorated with care and precision.</p>
             </li>
-            <li class="product-item">
+            <li>
                 <strong>Petit Fours</strong>
-                <p class="product-description">Small, bite-sized confectionery, often decorated elaborately.</p>
+                <p>Delicate, bite-sized cakes, beautifully decorated and perfect for any special occasion.</p>
             </li>
-            <li class="product-item">
+            <li>
                 <strong>Swiss Roll</strong>
-                <p class="product-description">A sponge cake rolled with a filling, such as cream or jam.</p>
+                <p>Light and airy sponge cake filled with cream and jam, rolled to perfection and dusted with powdered sugar.</p>
             </li>
         </ul>
-    </div>
-
-  <footer id="contact">
-        <p>Contact us at: <span class="email"><a href="mailto:aprilyngaro9@gmail.com">aprilyngaro9@gmail.com</a></span></p>
-        <p>&copy; 2024 Bread and Pastry Products</p>
+    </section>
+ <footer>
+        <p>Contact me at: <a href="mailto:johnbrianmontales010@gmail.com">johnbrianmontales010@gmail.com</a></p>
+        <p>Phone: 09635344946</p>
     </footer>
 
 </body>
