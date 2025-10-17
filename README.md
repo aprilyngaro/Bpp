@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -87,7 +87,9 @@
         <h1>Bread and Pastry Product</h1>
     </header>
     <div class="description">
-     let's explore here.the delightful world of homemade breads and pastries. Our collection is baked fresh with passion and premium ingredients.
+     let's explore here.
+        
+The delightful world of homemade breads and pastries. Our collection is baked fresh with passion and premium ingredients.
     </div>
     <section class="products">
         <div class="product">
